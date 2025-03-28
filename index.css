@@ -1,0 +1,36 @@
+.container {
+    width: 500px;
+    margin: 150px auto;
+    padding: 20px;
+    border: 1.5px solid #0d0d0d;
+    border-radius: 5px;
+}
+
+.list {
+    list-style-type: none;
+    padding: 0;
+}
+
+button {
+    margin-left: 20px;
+    border: 1px solid #0a0a0a;
+    height: 25px;
+}
+
+input {
+    margin-left: 20px;
+    border: 1px solid #0a0a0a;
+    height: 25px;
+}
+
+li {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list {
+    list-style-type: none;
+    padding: 0;
+}
