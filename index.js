@@ -16,7 +16,7 @@ function addTask() {
 
         const removeButton = document.createElement("button");
         removeButton.textContent = "Delete";
-        removeButton.onClick = () => removeTask(li);
+        removeButton.onclick = () => removeTask(li);
 
         li.appendChild(span);
         li.appendChild(editButton);
@@ -28,5 +28,13 @@ function addTask() {
     }
     else {
         alert("Please enter a valid input.");
+    }
+}
+
+function editTask(span) {
+    const newTask = prompt("Edit: ");
+
+    if(newTask != null && newTask.trim() !== "") {
+        span.textContent = newTask.trim();
     }
 }
