@@ -38,3 +38,8 @@ function editTask(span) {
         span.textContent = newTask.trim();
     }
 }
+
+function removeTask(task) {
+    const ul = document.getElementById("todoList");
+    ul.removeChild(task);
+}
